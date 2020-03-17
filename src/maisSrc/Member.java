@@ -15,4 +15,10 @@ public class Member {
 		this.y = y;
 		return x*y;
 	}
+	
+	public int min(int x, int y) {
+		this.x = x;
+		this.y = y;
+		return x-y;
+	}
 }

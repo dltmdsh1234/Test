@@ -49,6 +49,7 @@ public class TMember {
 		
 		System.out.println(oldMember.add(11, 4));
 		System.out.println(newMember.mul(5, 6));
+		System.out.println(newMember.min(1, 5));
 	}
 	
 	
