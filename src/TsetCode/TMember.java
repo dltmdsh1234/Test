@@ -45,10 +45,10 @@ public class TMember {
 	@Before
 	public void test2() {
 		newMember = new Member();
-		oldMember = new Member();
+		oldMember = newMember;
 		
-		
-		System.out.println(newMember.add(5, 6));
+		System.out.println(oldMember.add(11, 4));
+		System.out.println(newMember.mul(5, 6));
 	}
 	
 	
